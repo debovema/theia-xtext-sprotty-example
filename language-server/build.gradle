@@ -9,12 +9,11 @@ buildscript {
 
 subprojects {
 	ext.xtextVersion = '2.16.0'
-	ext.sprottyVersion = "0.5.0-SNAPSHOT"
+	ext.sprottyVersion = "0.6.0"
 	ext.elkVersion = "0.4.1"
 	
 	repositories {
 		jcenter()
-		maven { url 'https://oss.sonatype.org/content/repositories/snapshots' }		
 	}
 	
 	apply plugin: 'java'
